@@ -1,8 +1,4 @@
-# Welcome to your new ignited app!
-
-[![CircleCI](https://circleci.com/gh/infinitered/ignite.svg?style=svg)](https://circleci.com/gh/infinitered/ignite)
-
-## The latest and greatest boilerplate for Infinite Red opinions
+### To practice TypeScript and learn to work with a boilerplate, I'll try to do common things with best practices here like fetching data, doing TODO's etc...
 
 This is the boilerplate that [Infinite Red](https://infinite.red) uses as a way to test bleeding-edge changes to our React Native stack.
 
@@ -15,74 +11,6 @@ Currently includes:
 - And more!
 
 ## Quick Start
-
-The Ignite boilerplate project's structure will look similar to this:
-
-```
-ignite-project
-├── app
-│   ├── components
-│   ├── config
-│   ├── i18n
-│   ├── models
-│   ├── navigators
-│   ├── screens
-│   ├── services
-│   ├── theme
-│   ├── utils
-│   ├── app.tsx
-├── test
-│   ├── __snapshots__
-│   ├── mockFile.ts
-│   ├── setup.ts
-├── README.md
-├── android
-│   ├── app
-│   ├── build.gradle
-│   ├── gradle
-│   ├── gradle.properties
-│   ├── gradlew
-│   ├── gradlew.bat
-│   ├── keystores
-│   └── settings.gradle
-├── ignite
-│   └── templates
-|       |── app-icon
-│       ├── component
-│       ├── model
-│       ├── navigator
-│       └── screen
-├── index.js
-├── ios
-│   ├── IgniteProject
-│   ├── IgniteProject-tvOS
-│   ├── IgniteProject-tvOSTests
-│   ├── IgniteProject.xcodeproj
-│   └── IgniteProjectTests
-├── .env
-└── package.json
-
-```
-
-### ./app directory
-
-Included in an Ignite boilerplate project is the `app` directory. This is a directory you would normally have to create when using vanilla React Native.
-
-The inside of the `app` directory looks similar to the following:
-
-```
-app
-├── components
-├── config
-├── i18n
-├── models
-├── navigators
-├── screens
-├── services
-├── theme
-├── utils
-├── app.tsx
-```
 
 **components**
 This is where your reusable components live which help you build your screens.
@@ -110,9 +38,11 @@ This is a great place to put miscellaneous helpers and utilities. Things like da
 
 **app.tsx** This is the entry point to your app. This is where you will find the main App component which renders the rest of the application.
 
+<!--
 ### ./ignite directory
 
 The `ignite` directory stores all things Ignite, including CLI and boilerplate items. Here you will find templates you can customize to help you get started with React Native.
+
 
 ### ./test directory
 
@@ -127,4 +57,4 @@ Read [Detox setup instructions](./detox/README.md).
 - [2018 aka Bowser](https://github.com/infinitered/ignite-bowser)
 - [2017 aka Andross](https://github.com/infinitered/ignite-andross)
 - [2016 aka Ignite 1.0](https://github.com/infinitered/ignite-ir-boilerplate-2016)
-
+-->
