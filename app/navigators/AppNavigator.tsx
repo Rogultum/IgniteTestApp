@@ -42,6 +42,7 @@ export type AppStackParamList = {
   Login: undefined // @demo remove-current-line
   Demo: NavigatorScreenParams<DemoTabParamList> // @demo remove-current-line
   // 🔥 Your screens go here
+  // Todo: NavigatorScreenParams<TodoParamList>
 }
 
 /**

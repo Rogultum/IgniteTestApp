@@ -3,6 +3,7 @@
   "displayName": "PizzaApp",
   "expo": {
     "name": "PizzaApp",
+    "owner": "react-native-mustard",
     "slug": "PizzaApp",
     "version": "1.0.0",
     "orientation": "portrait",

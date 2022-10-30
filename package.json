@@ -30,7 +30,9 @@
     "expo:ios": "expo start --ios",
     "expo:web": "expo start --web",
     "expo:build:detox": "detox build -c ios.sim.expo",
-    "expo:test:detox": "./bin/downloadExpoApp.sh && detox test --configuration ios.sim.expo"
+    "expo:test:detox": "./bin/downloadExpoApp.sh && detox test --configuration ios.sim.expo",
+    "storybook": "start-storybook -p 7007",
+    "build-storybook": "build-storybook"
   },
   "overrides": {
     "react-error-overlay": "6.0.9"
@@ -80,6 +82,13 @@
     "@react-native-community/cli-platform-ios": "^8.0.2",
     "@rnx-kit/metro-config": "^1.2.32",
     "@rnx-kit/metro-resolver-symlinks": "0.1.21",
+    "@storybook/addon-actions": "^5.3.21",
+    "@storybook/addon-knobs": "^5.3.21",
+    "@storybook/addon-links": "^5.3.21",
+    "@storybook/addon-ondevice-actions": "^5.3.23",
+    "@storybook/addon-ondevice-knobs": "^5.3.26",
+    "@storybook/react-native": "^5.3.25",
+    "@storybook/react-native-server": "^5.3.23",
     "@types/i18n-js": "3.8.2",
     "@types/jest": "26.0.19",
     "@types/react": "^17",
