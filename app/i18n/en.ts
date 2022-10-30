@@ -46,6 +46,7 @@ const en = {
     debugTab: "Debug",
     communityTab: "Community",
     podcastListTab: "Podcast",
+    todoTab: "TODO's",
   },
   demoCommunityScreen: {
     title: "Connect with the community",
@@ -120,6 +121,12 @@ const en = {
     },
   },
   // @demo remove-block-end
+  demoTodoScreen: {
+    title: "TO-DO's of YOUR Day.",
+    inputLabel: "Add TO-DO.",
+    inputPlaceholder: "I will do...",
+    todoNum: "You have {{num}} TO-DO's.",
+  },
 }
 
 export default en
